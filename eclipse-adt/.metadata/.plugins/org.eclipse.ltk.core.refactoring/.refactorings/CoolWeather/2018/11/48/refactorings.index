@@ -1,0 +1,28 @@
+1543550477187	Rename package 'com.huae.coolweather.dao'
+1543552280757	Extract local variable 'query'
+1543558573955	Rename package 'com.huae.coolweather.utils'
+1543558995106	Extract local variable 'openConnection'
+1543559128136	Extract local variable 'inputStream'
+1543559306057	Extract local variable 'responseCode'
+1543560004840	Delete element
+1543565126375	Delete element
+1543566420543	Delete element
+1543566605553	Extract local variable 'objectCode'
+1543566638201	Extract local variable 'objectName'
+1543578972130	Extract local variable 'weatherId'
+1543579532515	Delete element
+1543579626921	Extract local variable 'weatherId'
+1543581000194	Extract local variable 'jsonObject2'
+1543581213834	Extract local variable 'HeWeather'
+1543581307670	Extract local variable 'basic'
+1543581332673	Extract local variable 'cityName'
+1543581534330	Extract local variable 'tim'
+1543581956243	Extract local variable 'weatherDescp'
+1543582019292	Extract local variable 'temp'
+1543582197465	Extract local variable 'prefs'
+1543582213504	Extract local variable 'editor'
+1543582837018	Delete element
+1543583129002	Extract local variable 'key'
+1543584515712	Delete element
+1543584794121	Rename resource 'switch.png'
+1543588439579	Extract local variable 'prefs'

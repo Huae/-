@@ -1,0 +1,5 @@
+1541988134722	Extract local variable 'db'
+1541988239661	Extract local variable 'insert'
+1541988579500	Extract local variable 'deleteRows'
+1541988968657	Extract local variable 'bookId'
+1541989207205	Extract local variable 'query'

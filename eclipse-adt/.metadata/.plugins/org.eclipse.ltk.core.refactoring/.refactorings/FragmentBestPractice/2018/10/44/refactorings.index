@@ -1,0 +1,27 @@
+1540891664255	Extract local variable 'item'
+1540891826020	Extract local variable 'title'
+1540893514857	Extract local variable 'findViewById'
+1540893608684	Extract local variable 'title'
+1540894206916	Extract local variable 'inflate'
+1540894645562	Extract local variable 'intent'
+1540894803245	Extract local variable 'newsContentFragment'
+1540896027185	Extract local variable 'news'
+1540896113638	Extract local variable 'newsContentFragment'
+1540896268251	Copy file
+1540909271176	Extract local variable 'view'
+1540910705921	Extract local variable 'intent'
+1540910725662	Extract local variable 'newsTitle'
+1540910852752	Extract local variable 'visibleLayout'
+1540911069932	Extract local variable 'findViewById'
+1540911279514	Extract local variable 'newsContentFragment'
+1540911728823	Extract local variable 'newsItem'
+1540911943908	Extract local variable 'contentFragment'
+1540913368542	Extract local variable 'newsItem'
+1540913518580	Extract local variable 'titleView'
+1540913749109	Extract local variable 'newsContentFragment'
+1540914143361	Copy file
+1540916572439	Copy file
+1540987858346	Rename resource 'news_title_item.xml'
+1540988019981	Delete element
+1540988056055	Rename resource 'news_title_item.xml.bak'
+1540988092064	Delete element

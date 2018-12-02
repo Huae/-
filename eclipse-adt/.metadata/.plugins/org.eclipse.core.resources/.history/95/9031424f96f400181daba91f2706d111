@@ -1,0 +1,7 @@
+package com.huae.coolweather.activity;
+
+import activity;
+
+public class WeatherActivity extends activity {
+
+}

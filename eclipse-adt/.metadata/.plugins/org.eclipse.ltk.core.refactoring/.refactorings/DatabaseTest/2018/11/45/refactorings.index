@@ -1,0 +1,5 @@
+1541672464219	Extract local variable 'db'
+1541673687845	Extract local variable 'db'
+1541675022197	Extract local variable 'query'
+1541675943176	Extract local variable 'db'
+1541676275481	Extract local variable 'rawQuery'

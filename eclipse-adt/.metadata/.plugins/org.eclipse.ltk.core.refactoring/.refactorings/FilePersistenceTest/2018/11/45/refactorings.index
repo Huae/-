@@ -1,0 +1,8 @@
+1541669168840	Extract local variable 'sharedPreferences'
+1541669229502	Extract local variable 'edit'
+1541669635024	Extract local variable 'sharedPreferences'
+1541669650813	Extract local variable 'all'
+1541669798653	Extract local variable 'name'
+1541669802008	Extract local variable 'age'
+1541669808313	Extract local variable 'married'
+1541669812394	Extract local variable 'sds'

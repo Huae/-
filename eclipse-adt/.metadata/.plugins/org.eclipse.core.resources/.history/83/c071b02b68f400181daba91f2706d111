@@ -1,0 +1,5 @@
+package com.huae.coolweather.util;
+
+public interface HttpCallbackListener {
+
+}

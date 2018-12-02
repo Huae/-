@@ -1,0 +1,3 @@
+1542111336232	Extract local variable 'path'
+1542111859502	Extract method 'getImagePathByUri'
+1542113027147	Extract local variable 'Uri'

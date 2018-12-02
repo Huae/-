@@ -1,0 +1,10 @@
+package com.huae.coolweather.db;
+
+/**
+ * 数据库常用操作
+ * @author huang
+ *
+ */
+public class CoolWeatherDB {
+
+}

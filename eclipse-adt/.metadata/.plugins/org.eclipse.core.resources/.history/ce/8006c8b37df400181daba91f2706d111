@@ -1,0 +1,37 @@
+package com.huae.coolweather.util;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import android.util.Log;
+
+public class JSONUtils {
+
+	public static boolean parseProvince(String response) {
+		try {
+			JSONArray jsonArray = new JSONArray(response);
+			for(int i = 0; i < jsonArray.length(); i++){
+				JSONObject jsonObject = jsonArray.getJSONObject(i);
+				String objectCode = jsonObject.getString("id");
+				String objectName = jsonObject.getString("name");
+				Log.i("code", objectCode);
+				Log.i("name", objectName);
+			}
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+
+	public static boolean parseCity(String response) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static boolean parseCounty(String response) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

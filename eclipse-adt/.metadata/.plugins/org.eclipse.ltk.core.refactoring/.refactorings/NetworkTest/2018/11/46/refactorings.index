@@ -1,0 +1,14 @@
+1542187767336	Extract local variable 'openConnection'
+1542187873282	Extract local variable 'inputStream'
+1542188211583	Extract local variable 'outputStream'
+1542188540138	Extract local variable 'httpResponse'
+1542188581552	Extract local variable 'entity'
+1542188603839	Extract local variable 'content'
+1542188642598	Extract local variable 'content'
+1542193510568	Extract local variable 'eventType'
+1542195489832	Extract local variable 'newSAXParser'
+1542195518504	Extract local variable 'xmlReader'
+1542197783868	Extract local variable 'fromJson'
+1542197901980	Delete element
+1542198061016	Delete element
+1542198129567	Extract local variable 'fromJson'

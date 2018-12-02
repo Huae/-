@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button1"/>
+    <Button 
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="销毁活动"/>
+    <Button 
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示intent打开活动"/>
+    <Button 
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式intent打开活动"/>
+	 <Button 
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式intent其他用法"/>
+	 <Button 
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent调用系统拨号"/>
+	  <Button 
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向活动传送数据"/>
+	  <Button 
+	      android:id="@+id/btn8"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:text="启动模式测试"/>
+	  <Button 
+	      android:id="@+id/btn9"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:text="关闭所有"/>
+</LinearLayout>

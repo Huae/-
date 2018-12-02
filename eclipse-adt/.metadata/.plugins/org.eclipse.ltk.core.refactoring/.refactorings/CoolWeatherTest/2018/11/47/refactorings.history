@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;json&apos; from expression &apos;gson.toJson(arg0)&apos;&#x0D;&#x0A;- Original project: &apos;CoolWeatherTest&apos;&#x0D;&#x0A;- Variable name: &apos;json&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.coolweathertest.MainActivity.onCreate().new OnResultWeatherDataListBeansListener() {...}.onSuccess()&apos;&#x0D;&#x0A;- Variable expression: &apos;gson.toJson(arg0)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;json&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.coolweathertest{MainActivity.java" name="json" replace="true" selection="1020 0" stamp="1542620706072" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+package com.huae.coolweather.test;
+
+import junit.framework.TestCase;
+
+public class HttpUtilTest extends TestCase {
+
+}

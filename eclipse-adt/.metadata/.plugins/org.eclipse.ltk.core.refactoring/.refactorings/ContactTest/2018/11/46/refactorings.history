@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;cursor&apos; from expression &apos;getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,null,null,null)&apos;&#x0D;&#x0A;- Original project: &apos;ContactTest&apos;&#x0D;&#x0A;- Variable name: &apos;cursor&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.contacttest.MainActivity.readContacts()&apos;&#x0D;&#x0A;- Variable expression: &apos;getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,null,null,null)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;cursor&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.contacttest{MainActivity.java" name="cursor" replace="true" selection="1138 0" stamp="1541984016078" version="1.0"/>
+</session>

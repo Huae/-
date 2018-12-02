@@ -1,0 +1,26 @@
+package com.huae.coolweather.test;
+
+import org.junit.Test;
+
+import com.huae.coolweather.util.HttpCallbackListener;
+import com.huae.coolweather.util.HttpUtil;
+
+public class HttpUtilTest {
+	
+	@Test
+	public void test(){
+		String address = "https://cdn.heweather.com/china-city-list.csv";
+		HttpUtil.sendHttpRequest(address, new HttpCallbackListener() {
+			
+			@Override
+			public void onFinish(String response) {
+				System.out.println(response);
+			}
+			
+			@Override
+			public void onError(Exception e) {
+				
+			}
+		});
+	}
+}

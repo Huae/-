@@ -1,0 +1,24 @@
+package com.huae.coolweather.test;
+
+import com.huae.coolweather.util.HttpCallbackListener;
+import com.huae.coolweather.util.HttpUtil;
+
+public class HttpUtilTest {
+	
+	public void test(){
+		HttpUtil.sendHttpRequest(address, new HttpCallbackListener() {
+			
+			@Override
+			public void onFinish(String response) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onError(Exception e) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
+}

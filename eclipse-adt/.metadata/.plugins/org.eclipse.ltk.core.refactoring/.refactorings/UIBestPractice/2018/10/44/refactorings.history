@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;item&apos; from expression &apos;getItem(position)&apos;&#x0D;&#x0A;- Original project: &apos;UIBestPractice&apos;&#x0D;&#x0A;- Variable name: &apos;item&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.uibestpractice.MsgAdapter.getView()&apos;&#x0D;&#x0A;- Variable expression: &apos;getItem(position)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;item&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.uibestpractice{MsgAdapter.java" name="item" replace="true" selection="575 0" stamp="1540803412428" version="1.0"/>
+</session>

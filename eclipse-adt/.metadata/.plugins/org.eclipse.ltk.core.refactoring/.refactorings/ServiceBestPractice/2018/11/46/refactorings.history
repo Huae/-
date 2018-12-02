@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;alarmManager&apos; from expression &apos;getSystemService(Context.ALARM_SERVICE)&apos;&#x0D;&#x0A;- Original project: &apos;ServiceBestPractice&apos;&#x0D;&#x0A;- Variable name: &apos;alarmManager&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.servicebestpractice.LongRunningService.onStartCommand()&apos;&#x0D;&#x0A;- Variable expression: &apos;getSystemService(Context.ALARM_SERVICE)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;alarmManager&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.servicebestpractice{LongRunningService.java" name="alarmManager" replace="true" selection="638 0" stamp="1542182581504" version="1.0"/>
+</session>

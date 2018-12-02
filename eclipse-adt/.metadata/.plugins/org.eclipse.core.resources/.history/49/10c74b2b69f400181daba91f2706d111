@@ -1,0 +1,12 @@
+package com.huae.coolweather.util;
+
+/**
+ * HTTP连接工具
+ * @author huang
+ *
+ */
+public class HttpUtil {
+	public static void sendHttpRequest(final String address,final HttpCallbackListener listener){
+		
+	}
+}

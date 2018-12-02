@@ -1,0 +1,4 @@
+1541990374674	Extract local variable 'contentResolver'
+1541990406130	Extract local variable 'contentResolver'
+1541990704853	Extract local variable 'insert'
+1541991320625	Extract local variable 'cursor'

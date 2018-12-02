@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;sensor&apos; from expression &apos;sensorManager.getDefaultSensor(SensorManager.SENSOR_LIGHT)&apos;&#x0D;&#x0A;- Original project: &apos;LightSensorTest&apos;&#x0D;&#x0A;- Variable name: &apos;sensor&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.lightsensortest.MainActivity.onCreate()&apos;&#x0D;&#x0A;- Variable expression: &apos;sensorManager.getDefaultSensor(SensorManager.SENSOR_LIGHT)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;sensor&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.lightsensortest{MainActivity.java" name="sensor" replace="true" selection="733 0" stamp="1542383795348" version="1.0"/>
+</session>

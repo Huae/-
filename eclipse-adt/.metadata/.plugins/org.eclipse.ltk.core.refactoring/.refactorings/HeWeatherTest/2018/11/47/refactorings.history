@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;libs&apos;&#x0D;&#x0A;- Original project: &apos;HeWeatherTest&apos;&#x0D;&#x0A;- Destination element: &apos;libs&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     sdk_HeWeather_Java_SDK_Pub_V1.6.jar&#x0D;&#x0A;     fastjson-1.2.8.jar" description="Copy files" element1="lib/sdk_HeWeather_Java_SDK_Pub_V1.6.jar" element2="lib/fastjson-1.2.8.jar" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1542624833436" target="/LocationTest/libs" units="0" version="1.0"/>
+</session>

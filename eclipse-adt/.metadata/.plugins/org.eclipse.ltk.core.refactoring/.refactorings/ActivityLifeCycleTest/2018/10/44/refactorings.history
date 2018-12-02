@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;saveData&apos; from expression &apos;savedInstanceState.getString(&quot;data_save&quot;)&apos;&#x0D;&#x0A;- Original project: &apos;ActivityLifeCycleTest&apos;&#x0D;&#x0A;- Variable name: &apos;saveData&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.activitylifecycletest.MainActivity.onCreate()&apos;&#x0D;&#x0A;- Variable expression: &apos;savedInstanceState.getString(&quot;data_save&quot;)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;saveData&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.activitylifecycletest{MainActivity.java" name="saveData" replace="true" selection="572 0" stamp="1540712344475" version="1.0"/>
+</session>

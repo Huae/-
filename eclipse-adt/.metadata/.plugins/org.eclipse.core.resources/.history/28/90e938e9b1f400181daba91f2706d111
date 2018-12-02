@@ -1,0 +1,37 @@
+package com.huae.coolweather.service;
+
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.app.Service;
+import android.content.Context;
+import android.content.Intent;
+import android.os.IBinder;
+
+public class AutoUpdateService extends Service {
+
+	@Override
+	public IBinder onBind(Intent arg0) {
+		return null;
+	}
+	@Override
+	public int onStartCommand(Intent intent, int flags, int startId) {
+		// 更新天气
+		new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				updateWeather();
+			}
+		}).start();
+		
+		AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+		long triggerAtMillis = 4*60*60*1000;	// 4小时
+		PendingIntent operation = PendingIntent.getBroadcast(this, 0, intent, 0);
+		alarmManager.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, triggerAtMillis, operation);
+		return super.onStartCommand(intent, flags, startId);
+	}
+	
+	private void updateWeather() {
+		
+	}
+}

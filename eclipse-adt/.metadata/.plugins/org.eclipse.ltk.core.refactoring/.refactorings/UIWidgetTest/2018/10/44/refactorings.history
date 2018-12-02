@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;progress&apos; from expression &apos;progressBar2.getProgress()&apos;&#x0D;&#x0A;- Original project: &apos;UIWidgetTest&apos;&#x0D;&#x0A;- Variable name: &apos;progress&apos;&#x0D;&#x0A;- Destination method: &apos;com.example.uiwidgettest.MainActivity.onCreate().new OnClickListener() {...}.onClick()&apos;&#x0D;&#x0A;- Variable expression: &apos;progressBar2.getProgress()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;progress&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.example.uiwidgettest{MainActivity.java" name="progress" replace="true" selection="1531 0" stamp="1540777786881" version="1.0"/>
+</session>

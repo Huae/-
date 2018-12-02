@@ -1,0 +1,6 @@
+1540906282443	Rename resource 'news_title_item.xml'
+1540906433633	Extract method 'initTitleData'
+1540906740094	Extract local variable 'view'
+1540906875805	Extract local variable 'titleString'
+1540906901970	Extract local variable 'title'
+1540987862237	Copy file

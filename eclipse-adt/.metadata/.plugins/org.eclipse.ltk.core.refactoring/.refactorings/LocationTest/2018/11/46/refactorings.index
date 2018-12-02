@@ -1,0 +1,4 @@
+1542353373924	Extract local variable 'allProviders'
+1542354571885	Extract local variable 'lastKnownLocation'
+1542354630939	Extract local variable 'latitude'
+1542354635533	Extract local variable 'longitude'

@@ -1,0 +1,41 @@
+package com.huae.coolweather.util;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.huae.coolweather.activity.ChooseAreaActivity;
+import com.huae.coolweather.db.CoolWeatherDB;
+import com.huae.coolweather.entity.Province;
+
+import android.util.Log;
+
+public class JSONUtils {
+
+	public static boolean parseProvince(CoolWeatherDB coolWeatherDB, String response) {
+		try {
+			JSONArray jsonArray = new JSONArray(response);
+			for (int i = 0; i < jsonArray.length(); i++) {
+				JSONObject jsonObject = jsonArray.getJSONObject(i);
+				String provinceCode = jsonObject.getString("id");
+				String provinceName = jsonObject.getString("name");
+
+				Province province = new Province(provinceName, provinceCode);
+				coolWeatherDB.saveProvince(province);
+			}
+			return true;
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+
+	public static boolean parseCity(CoolWeatherDB coolWeatherDB, String response) {
+		return false;
+	}
+
+	public static boolean parseCounty(CoolWeatherDB coolWeatherDB, String response) {
+		return false;
+	}
+
+}

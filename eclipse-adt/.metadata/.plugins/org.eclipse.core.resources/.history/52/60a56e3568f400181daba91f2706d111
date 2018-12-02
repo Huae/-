@@ -1,0 +1,10 @@
+package com.huae.coolweather.util;
+
+/**
+ * HTTP连接工具
+ * @author huang
+ *
+ */
+public class HttpUtil {
+
+}

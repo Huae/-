@@ -3,7 +3,6 @@
 
 1. 安装git
 	`sudo apt-get install git-core`
-<br>
 2. 配置身份信息
 		git config --global user.name "xxx"
 		git config --global user.email "xxx"
